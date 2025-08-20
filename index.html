@@ -1,24 +1,224 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 14</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 14 Kínder K3</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡Entrenando al Guardián del Aula!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Simular el proceso de "entrenamiento" de un modelo de IA.</li>
+<li>Comprender la necesidad de la repetición para el aprendizaje de la máquina.</li>
+<li>Practicar la colaboración y la paciencia.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Realización exitosa de al menos 10-15 repeticiones de "entrenamiento" del Kinderbot, demostrando paciencia y explicando la importancia de la repetición para el aprendizaje.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Kinderbot de cada equipo.</li>
+<li>La "señal" definida por cada equipo (ej. un bloque de un color específico, una tarjeta con un dibujo).</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Hola, Equipo de Guardianes! ⏰ 5 min</h2>
+<p>Preparamos nuestras mentes y espíritus para una misión llena de aprendizaje y paciencia.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Laboratorios de IA, a sus puestos! ⏰ 2 min</h3>
+<p>Saluda a los niños con entusiasmo, recordándoles su importante rol como "Laboratorios de IA". Prepáralos para la emocionante misión de hoy. (Proyectar Diapositiva 1)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, mis pequeños genios de la IA! ¡Qué emoción tenerlos hoy listos para una misión superimportante! Recuerden que ustedes son los 'Laboratorios de IA' más increíbles del mundo. ¡Cada uno de ustedes tiene una mente brillante y manos mágicas para construir y enseñar! ¿Están listos para la aventura de hoy?</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: La Misión Crucial: Entrenar a Nuestros Guardianes ⏰ 3 min</h3>
+<p>Recuérdales a los niños sobre sus Kinderbots y la importancia de la tarea que tienen por delante: entrenar a sus guardianes. Genera expectación y emoción. (Proyectar Diapositiva 2)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¿Se acuerdan de nuestros Kinderbots? Esos amigos robots que están aquí para ayudarnos en el aula. Pues hoy es el día crucial: ¡vamos a entrenarlos para que sean los mejores guardianes del aula! Imaginen que ellos son como perritos que necesitan aprender trucos. ¡Nosotros somos sus entrenadores! ¿Creen que podemos hacerlo? ¡Claro que sí! ¡Manos a la obra, que la aventura nos espera!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Secreto del Aprendizaje Robótico ⏰ 5 min</h2>
+<p>Descubrimos el truco mágico para que nuestros amigos Kinderbots aprendan cosas nuevas.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¿Cómo Aprenden los Robots? ⏰ 2 min</h3>
+<p>Explica de forma sencilla la idea de que los robots necesitan ver las cosas muchas veces para 'aprenderlas'. Hazlo interactivo, preguntando a los niños cómo creen que aprenden sus juguetes o personajes favoritos. (Proyectar Diapositiva 3)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, equipo! Nuestro Kinderbot es superinteligente, ¡pero necesita nuestra ayuda para aprender cosas nuevas! ¿Se han preguntado alguna vez cómo aprenden los robots? No es como nosotros que leemos un libro y ¡zas! Ya sabemos. Los robots necesitan que les mostremos las cosas. ¡Es como si tuvieran que verlas muchas, muchas veces para entenderlas! ¿Alguien tiene una idea de por qué será así?</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: La Fórmula Secreta de la Repetición ⏰ 3 min</h3>
+<p>Usa una analogía con cómo los niños aprenden (ej. a andar en bici, a dibujar un corazón) para que comprendan la necesidad de la repetición. Introduce el término "entrenar el modelo". (Proyectar Diapositiva 4)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Imaginen que ustedes quieren aprender a saltar la cuerda... ¿lo aprenden la primera vez? ¡Nooo! Necesitan practicar, ¿verdad? ¡Una y otra vez! O cuando aprendieron a dibujar un corazón, ¡seguro que al principio no salía perfecto! Pues nuestros Kinderbots son igualitos. Para que nuestro Kinderbot aprenda a reconocer la señal secreta que cada equipo le dio, ¡debemos mostrársela muchas, muchas veces! ¡Esto se llama 'entrenar el modelo'! ¡Es como darle una lección especial a nuestro robot! ¿Están listos para ser los mejores entrenadores y enseñarles con mucha paciencia?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Sesión de Entrenamiento Intensivo Kinderbot! ⏰ 25 min</h2>
+<p>Es hora de poner en práctica nuestra paciencia y colaboración para enseñar a nuestros guardianes.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Preparando el Área de Entrenamiento ⏰ 5 min</h3>
+<p>Guía a los equipos a sus Kinderbots y las señales que definieron. Asegúrate de que cada equipo tenga su espacio y materiales listos. Recuérdales la importancia de trabajar juntos. (Proyectar Diapositiva 5)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Muy bien, superentrenadores! ¡Es hora de la acción! Cada equipo, por favor, reúnase con su Kinderbot y con la señal secreta que han elegido. ¿Recuerdan cuál era? ¡Excelente! Puede ser un bloque rojo, una tarjeta con un sol... ¡la que hayan elegido! Asegúrense de tener todo listo, porque la sesión de entrenamiento ¡está a punto de comenzar! Recuerden que somos un equipo y nos ayudamos unos a otros.</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Repetición con Ritmo y Alegría ⏰ 20 min</h3>
+<p>Circula por los equipos. Anima a los niños a presentar la señal a su Kinderbot de forma repetida. Usa un contador o ábaco (o marca en una hoja) para que visualicen las repeticiones. Celebra los hitos (ej. cada 5 entrenamientos). Recuérdales la importancia de la paciencia y la colaboración. (Proyectar Diapositiva 6)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, equipos de expertos! ¡Aquí viene la parte emocionante! Ahora, por turnos, cada miembro del equipo va a presentarle esa señal secreta a su Kinderbot. ¡Recuerden, muchas, muchas veces! ¡Vamos a contar juntos! Uno... dos... ¡así! ¡Lo están haciendo genial! ¡Miren cómo nuestro Kinderbot se concentra! ¿Creen que ya está aprendiendo? ¡Qué gran trabajo en equipo! ¡Recuerden, la paciencia es la clave para que nuestros amigos robots aprendan! ¡Llevan 5 entrenamientos, ¡super! ¡Sigan así! ¡Llevan 10 entrenamientos, ¡wow! ¡Podemos llegar a 15 y más! ¡Cada vez que le muestran la señal, su Kinderbot se vuelve un poquito más inteligente!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Misión Cumplida: Guardianes Entrenados! ⏰ 5 min</h2>
+<p>Compartimos nuestras experiencias y celebramos el gran logro de nuestros Kinderbots.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Compartiendo Experiencias de Entrenamiento ⏰ 3 min</h3>
+<p>Invita a algunos equipos a compartir cómo fue el proceso de entrenamiento. Pregúntales si creen que su Kinderbot aprendió y por qué. Fomenta la participación de todos. (Proyectar Diapositiva 7)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Alto, equipo! ¡Misión cumplida por hoy! ¡Lo hicieron increíble! ¡Estoy muy orgulloso de su paciencia y trabajo en equipo! ¿Quién quiere compartir cómo le fue entrenando a su Kinderbot? ¿Fue fácil o un poco difícil al principio? ¿Creen que su guardián ya aprendió la señal? ¡Cuéntenme, cuéntenme! ¿Por qué creen que fue importante repetirlo tantas veces? ¡Sus ideas son geniales y muy importantes!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Reflexión Final y Celebración ⏰ 2 min</h3>
+<p>Recalca la importancia de la repetición y la paciencia para el aprendizaje. Felicita a todos por su esfuerzo y colaboración. Anuncia que en la próxima sesión verán si sus guardianes responden a la señal. Crea un final emocionante. (Proyectar Diapositiva 8)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente, equipo! Hoy aprendimos algo superimportante: ¡que la repetición y la paciencia son la clave para que nuestros amigos robots aprendan! ¡Son unos entrenadores de primera! ¡Un aplauso enorme para todos ustedes y para sus Kinderbots que están aprendiendo muchísimo! ¡Se merecen una gran ovación! ¡Nos vemos en la próxima aventura para ver si nuestros guardianes ya están listos para proteger el aula con su señal secreta! ¡Prepárense para la sorpresa! ¡Adiós, mis campeones de la IA!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
